@@ -1,3 +1,11 @@
+/**
+ * DICOM VIewer - Main
+ * Copyright (c) 2026, Augusto Damasceno.
+ * All rights reserved.
+ *
+ * SPDX-License-Identifier: BSD-2-Clause
+ */
+
 #include "ui/windows/mainwindow.h"
 
 #include <QApplication>

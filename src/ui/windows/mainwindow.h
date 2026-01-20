@@ -1,5 +1,5 @@
 /**
- * DICOM VIewer - Janela principal
+ * DICOM Viewer - Janela principal
  * Copyright (c) 2026, Augusto Damasceno.
  * All rights reserved.
  *
@@ -9,6 +9,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QGraphicsScene>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -40,5 +42,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    QGraphicsScene* sceneMedicalImage;
 };
 #endif // MAINWINDOW_H

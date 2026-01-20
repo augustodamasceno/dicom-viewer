@@ -1,5 +1,5 @@
 /**
- * DICOM VIewer - Utilitários do Menu
+ * DICOM Viewer - Utilitários do Menu
  * Copyright (c) 2026, Augusto Damasceno.
  * All rights reserved.
  *
@@ -9,6 +9,8 @@
 #define MENUUTILS_H
 
 #include <QString>
+#include <QImage>
+#include "../../core/MedicalImage.h"
 
 namespace dicom_viewer_windows {
 	/**
@@ -21,6 +23,14 @@ namespace dicom_viewer_windows {
 	 * @return true Se o arquivo for um DICOM válido, false caso contrário.
 	 */
 	bool isValidDicomFile(const QString &filePath);
+
+	/**
+	 * @brief Converte uma imagem médica DICOM para QImage.
+	 *
+	 * @param rawImg A imagem DICOM a ser convertida.
+	 * @return QImage contendo os dados da imagem convertida.
+	 */
+	QImage convertMedicalImage(const dicom_viewer_core::MedicalImage& rawImg);
 }
 
 #endif // MENUUTILS_H
