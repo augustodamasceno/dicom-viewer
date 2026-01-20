@@ -1,7 +1,7 @@
 # dicom-viewer  
 DICOM (Digital Imaging and Communications in Medicine) Viewer  
 
-> Copyright (c) 2018-2026, Augusto Damasceno.  
+> Copyright (c) 2026, Augusto Damasceno.  
 > All rights reserved.  
 > SPDX-License-Identifier: BSD-2-Clause  
 > Contact: augustodamasceno@protonmail.com  
