@@ -1,10 +1,10 @@
 # dicom-viewer  
 DICOM (Digital Imaging and Communications in Medicine) Viewer  
 
-> Copyright (c) 2018-2026, Augusto Damasceno.
-> All rights reserved.
-> SPDX-License-Identifier: BSD-2-Clause
-> Contact: augustodamasceno@protonmail.com
+> Copyright (c) 2018-2026, Augusto Damasceno.  
+> All rights reserved.  
+> SPDX-License-Identifier: BSD-2-Clause  
+> Contact: augustodamasceno@protonmail.com  
 
 ## Overview
 
@@ -77,10 +77,6 @@ DICOM Viewer is a professional cross-platform medical image viewer built with mo
 ### Windows/MinGW Compilation Guide
 
 #### Setup Prerequisites
-```powershell
-# 1. Add MinGW to PATH
-$env:Path = "C:\Qt\Tools\mingw1310_64\bin;" + $env:Path
-```
 ```powershell
 # 1. Add MinGW to PATH
 $env:Path = "C:\Qt\Tools\mingw1310_64\bin;" + $env:Path
